@@ -1,0 +1,143 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="490"
+    height="330"
+    viewBox="0 0 490 330"
+    role="img"
+>
+
+<title>vidanttt@github</title>
+
+<style>
+
+    .panel {
+        fill: #0d1117;
+        stroke: #30363d;
+        stroke-width: 1;
+    }
+
+    .title {
+        fill: #f0f6fc;
+        font-family:
+            "Courier New",
+            monospace;
+        font-size: 17px;
+        font-weight: bold;
+    }
+
+    .label {
+        fill: #69f0a0;
+        font-family:
+            "Courier New",
+            monospace;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .value {
+        fill: #b8b8b8;
+        font-family:
+            "Courier New",
+            monospace;
+        font-size: 14px;
+    }
+
+    .line {
+        opacity: 0;
+        animation:
+            appear 0.45s ease-out forwards;
+    }
+
+    @keyframes appear {
+        from {
+            opacity: 0;
+            transform: translateX(12px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+</style>
+
+
+<!-- PANEL -->
+
+<rect
+    class="panel"
+    x="0.5"
+    y="0.5"
+    width="489"
+    height="329"
+    rx="8"
+/>
+
+
+<!-- TITLE -->
+
+<text
+    class="title"
+    x="25"
+    y="42"
+>
+$ whoami
+</text>
+
+
+<!-- SEPARATOR -->
+
+<line
+    x1="25"
+    y1="58"
+    x2="465"
+    y2="58"
+    stroke="#30363d"
+/>
+
+
+<!-- CONTENT -->
+
+<g class="line" style="animation-delay:0.15s">
+    <text class="label" x="25" y="95">NAME</text>
+    <text class="value" x="150" y="95">Vidant</text>
+</g>
+
+
+<g class="line" style="animation-delay:0.30s">
+    <text class="label" x="25" y="135">ROLE</text>
+    <text class="value" x="150" y="135">Creative Developer</text>
+</g>
+
+
+<g class="line" style="animation-delay:0.45s">
+    <text class="label" x="25" y="175">STACK</text>
+    <text class="value" x="150" y="175">Next.js · TypeScript · Python</text>
+</g>
+
+
+<g class="line" style="animation-delay:0.60s">
+    <text class="label" x="25" y="215">FOCUS</text>
+    <text class="value" x="150" y="215">AI · Web · Design</text>
+</g>
+
+
+<g class="line" style="animation-delay:0.75s">
+    <text class="label" x="25" y="255">PROJECTS</text>
+    <text class="value" x="150" y="255">Friday · VS_Downloader · Forsakened</text>
+</g>
+
+
+<!-- FOOTER -->
+
+<text
+    class="value"
+    x="25"
+    y="300"
+    opacity="0.55"
+>
+$ exit
+</text>
+
+</svg>
